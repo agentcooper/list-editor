@@ -12,6 +12,8 @@
 		5BEA6A4B253A3626001F5EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEA6A4A253A3626001F5EAB /* Assets.xcassets */; };
 		5BEA6A4E253A3626001F5EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEA6A4D253A3626001F5EAB /* Preview Assets.xcassets */; };
 		5BEA6A51253A3626001F5EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEA6A4F253A3626001F5EAB /* Main.storyboard */; };
+		5BEA6A5B253A364D001F5EAB /* ListEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6A5A253A364D001F5EAB /* ListEditor.swift */; };
+		5BEA6A5E253A3695001F5EAB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6A5D253A3695001F5EAB /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		5BEA6A50253A3626001F5EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BEA6A52253A3626001F5EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BEA6A53253A3626001F5EAB /* ListEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ListEditor.entitlements; sourceTree = "<group>"; };
+		5BEA6A5A253A364D001F5EAB /* ListEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditor.swift; sourceTree = "<group>"; };
+		5BEA6A5D253A3695001F5EAB /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				5BEA6A52253A3626001F5EAB /* Info.plist */,
 				5BEA6A53253A3626001F5EAB /* ListEditor.entitlements */,
 				5BEA6A4C253A3626001F5EAB /* Preview Content */,
+				5BEA6A5A253A364D001F5EAB /* ListEditor.swift */,
+				5BEA6A5D253A3695001F5EAB /* CustomTextField.swift */,
 			);
 			path = ListEditor;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEA6A5E253A3695001F5EAB /* CustomTextField.swift in Sources */,
 				5BEA6A49253A3624001F5EAB /* ContentView.swift in Sources */,
+				5BEA6A5B253A364D001F5EAB /* ListEditor.swift in Sources */,
 				5BEA6A47253A3624001F5EAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
